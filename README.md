@@ -21,7 +21,7 @@ spatial-statistical downscaling with uncertainty quantification.
 
 You can install the package with **devtools**
 ```
-devtools::install_github("xzheng42/corgi-examples/", subdir = "spds")
+devtools::install_github("xzheng42/corgi-examples", subdir = "spds")
 library(spds)
 ```
 

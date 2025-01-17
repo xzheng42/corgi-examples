@@ -8,7 +8,7 @@ Zheng, X., Cressie, N., Clarke, D. A., McGeoch, M. A., and Zammit-Mangion, A. (2
 
 You can install the package with **devtools**
 ```
-devtools::install_github("xzheng42/corgi-examples/", subdir = "spds")
+devtools::install_github("xzheng42/corgi-examples", subdir = "spds")
 library(spds)
 ```
 
