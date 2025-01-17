@@ -4,7 +4,7 @@
 This repository contains the R scripts to reproduce the numerical results in
 
 Zheng, X., Cressie, N., Clarke, D. A., McGeoch, M. A., and Zammit-Mangion, A. (2025). 
-"Spatial-statistical downscaling with uncertainty quantification in biodiversity modelling".
+"Spatial-statistical downscaling with uncertainty quantification in biodiversity modelling". To appear in *Methods in Ecology and Evolution*.
 <!-- NIASRA Working Paper Series 06-24. URL: [https://www.uow.edu.au/niasra/publications/](https://www.uow.edu.au/niasra/publications/) -->
 
 ### A two-stage protocol for biodiversity inference
@@ -16,12 +16,12 @@ stage of CORGI involves a GLM-based biodiversity model that uses the downscaled 
 ### Installing and using the **spds** package
 
 
-We use [**spds**](https://github.com/xzheng42/corgi-final-test/tree/main/spds) (currently developer's version) for 
+We use [**spds**](https://github.com/xzheng42/corgi-examples/tree/main/spds) (currently developer's version) for 
 spatial-statistical downscaling with uncertainty quantification.
 
 You can install the package with **devtools**
 ```
-devtools::install_github("xzheng42/corgi-final-test/", subdir = "spds")
+devtools::install_github("xzheng42/corgi-examples/", subdir = "spds")
 library(spds)
 ```
 
@@ -39,13 +39,13 @@ Notes:
 ### Workflow to reproduce numerical results
 
 R scripts to reproduce results in the manuscript are available in
-[*data-examples/*](https://github.com/xzheng42/corgi-final-test/tree/main/data-examples).
+[*data-examples/*](https://github.com/xzheng42/corgi-examples/tree/main/data-examples).
 
 Notes: 
 
 - The master script (`run_all_rscripts.R`) has instructions for running the code. In each R script, users need to specify the input and/or output directories.
 
-- Data can be assessed in [*data/*](https://github.com/xzheng42/corgi-final-test/tree/main/data). 
+- Data can be assessed in [*data/*](https://github.com/xzheng42/corgi-examples/tree/main/data). 
   The folder contains Bunger Hills' shape files (bh), landscape data (dem), climate reanalysis (ear5-land), and moss data (moss).
 
 # Reporting bugs and issues
