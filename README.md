@@ -43,7 +43,7 @@ R scripts to reproduce results in the manuscript are available in
 
 Notes: 
 
-- The master script (`run_all_rscripts.R`) has instructions for running the code. In each R script, users need to specify the input and/or output directories.
+- The master script (`run_all_rscripts.R`) has instructions for running the code. In each R script, users need to specify the input and/or output directories and may need to install additional packages.
 
 - Data can be assessed in [*data/*](https://github.com/xzheng42/corgi-examples/tree/main/data). 
   The folder contains Bunger Hills' shape files (bh), landscape data (dem), climate reanalysis (ear5-land), and moss data (moss).
