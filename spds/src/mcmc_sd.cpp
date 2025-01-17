@@ -138,7 +138,7 @@ List fitGPBAU(const arma::colvec& y,
     
     icount++;
     if (icount == nreport) {
-      Rprintf("Sampled: %i of %i\n", (iter + 1), niter, 100.0 * (iter + 1) / niter);
+      Rprintf("Sampled: %i of %i\n", (iter + 1), niter);
       ert = (block_time / nreport) * (niter - iter);
       Rprintf("Estimated remaining time: %3.2f minutes\n", ert / 60.0);
       Rprintf("Interval acceptance rate: %3.2f%%\n", 100.0 * batch_accept / nreport);
@@ -213,7 +213,7 @@ arma::mat predGPBAU2(const arma::colvec& y,
      
      icount++;
      if (icount == nreport) {
-       Rprintf("Sampled: %i of %i\n", (iter + 1), niter, 100.0 * (iter + 1) / niter);
+       Rprintf("Sampled: %i of %i\n", (iter + 1), niter);
        ert = (block_time / nreport) * (niter - iter);
        Rprintf("Estimated remaining time: %3.2f minutes\n", ert / 60.0);
        icount = 0;
@@ -292,7 +292,7 @@ arma::mat predGPBAU3(const arma::colvec& y,
 
      icount++;
      if (icount == nreport) {
-       Rprintf("Sampled: %i of %i\n", (iter + 1), niter, 100.0 * (iter + 1) / niter);
+       Rprintf("Sampled: %i of %i\n", (iter + 1), niter);
        ert = (block_time / nreport) * (niter - iter);
        Rprintf("Estimated remaining time: %3.2f minutes\n", ert / 60.0);
        icount = 0;
